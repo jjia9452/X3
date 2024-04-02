@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: #a68ae5;
+    display: flex;
+    padding: 4vh;
+
+    /* 我喜欢的align-items: center;
+    justify-content: space-around;
+    column-gap: 50%; */
+}
+
+
+
+#logotip{
+    width: 50%;
+    height: auto;
+}
+
+#logotip img{
+    width: 20%;
+}
+
+
+
+/* vw ocupar tot el amplada de la pantalla */
+
+nav{
+    width: 50%;
+    display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    /* margin: 2%; */
+}
+
+#menu{
+    width: auto;
+    display: flex;
+    /* justify-content: space-evenly;
+    flex-direction: row; */
+    list-style: none;
+    padding: 4vh;
+}
+
+/* 1rem = 17px   rem = % = vm   =  responsive */
+.linksmenu{
+    width: auto;
+    margin: 0px 10px;
+}
+
+
+.linksmenu a{
+    text-decoration: none;
+    color: white;
+    padding: 4vh;
+    border-radius: 16px;
+}
+
+.linksmenu a:hover{
+    text-decoration-line:underline;
+    text-decoration-thickness:4px;
+}
+
+
+@media screen and (max-width: 768px) {
+    #menu {
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+    }
+
+    header{
+        flex-direction: column;
+        padding-top: 10%;
+    }
+
+    #logotip img{
+        width: 50%;
+    }
+
+    #menu{
+        width: 100%;
+    }
+
+    nav{
+        .linksmenu a{
+            font-size: 2rem;
+            line-height: 4rem;
+        }
+    }
+
+}

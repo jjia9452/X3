@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+
+}
+
+/* header{
+    width: 100%;
+    height: auto;
+    background-color: #a68ae5;
+    display: flex;
+    padding: 4vh;
+}
+
+
+
+#logotip{
+    width: 50%;
+    height: auto;
+}
+
+#logotip img{
+    width: 20%;
+}
+
+
+
+/* vw ocupar tot el amplada de la pantalla */
+
+nav{
+    width: 50%;
+    display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    /* margin: 2%; */
+}
+
+#menu{
+    width: auto;
+    display: flex;
+    /* justify-content: space-evenly;
+    flex-direction: row; */
+    list-style: none;
+    padding: 4vh;
+}
+
+/* 1rem = 17px   rem = % = vm   =  responsive */
+.linksmenu{
+    width: auto;
+    margin: 0px 10px;
+}
+
+
+.linksmenu a{
+    text-decoration: none;
+    color: white;
+    padding: 4vh;
+    border-radius: 16px;
+}
+
+.linksmenu a:hover{
+    text-decoration-line:underline;
+    text-decoration-thickness:4px;
+} */
+
+/* main 开始啦 */
+
+#about{
+    background-color: seagreen;
+}
+
+footer{
+    background-color: purple;
+}
+
+
+
+hero{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 2 about */
+#about{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row; */
+    width: 100vw;
+    height: auto;
+    padding: 8%;
+    /* padding: 14vh 13vh; */
+    /* column-gap: 20%; */
+}
+
+h2{
+font-size: 2.3rem;
+padding-right: 10%;
+}
+
+#about p{
+font-size: 1.1rem;
+/* width: 40%; */
+width: 50%;
+}
+
+
+/* footer开始啦 */
+
+/* footer{
+background-color: blueviolet;
+padding: 8%;
+color: rgb(233, 232, 232);
+}
+
+.footer-caixa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    width: 25%;
+}
+
+.footer-section #laji{
+padding-top: 5%;
+} */
+
+@media screen and (max-width: 768px) {
+    #menu {
+        flex-direction:column;
+        width: 100%;
+    }
+
+    #about {
+        flex-direction:column;
+    }
+
+    .footer-caixa {
+        flex-direction:column;
+    }
+
+    .footer-section{
+        width: 100%;
+    }
+
+    .footer-section h2{
+        padding-top: 5%;
+
+    }
+}
