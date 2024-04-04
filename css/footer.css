@@ -1,0 +1,19 @@
+footer{
+background-color: blueviolet;
+padding: 8%;
+color: rgb(233, 232, 232);
+}
+
+.footer-caixa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    width: 25%;
+}
+
+.footer-section #laji{
+padding-top: 5%;
+}
