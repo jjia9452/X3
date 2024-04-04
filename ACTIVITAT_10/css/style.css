@@ -68,7 +68,7 @@ nav{
 .linksmenu a:hover{
     text-decoration-line:underline;
     text-decoration-thickness:4px;
-} */
+}
 
 /* main 开始啦 */
 
@@ -82,7 +82,7 @@ footer{
 
 
 
-hero{
+.hero{
     position: relative;
     width: 100vw;
     height: 100vh;
